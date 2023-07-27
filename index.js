@@ -6,7 +6,9 @@ const app=express();
 // parse application/json
 app.use(express.json());
 const greetings = {
-    'english' : 'Hello'
+    'english' : 'Hello',
+    'zulu' : 'Sawubona',
+    'xhosa' : 'Molo'
 }
 app.use(express.static('public'))
 
