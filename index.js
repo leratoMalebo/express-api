@@ -8,7 +8,8 @@ app.use(express.json());
 const greetings = {
     'english' : 'Hello',
     'zulu' : 'Sawubona',
-    'xhosa' : 'Molo'
+    'xhosa' : 'Molo',
+    'Sesotho' : 'Dumala Morena'
 }
 app.use(express.static('public'))
 
